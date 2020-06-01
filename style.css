@@ -52,7 +52,8 @@ centralize{
     box-sizing: border-box;
 
 }
-.containl1link{
+
+.containl1t1{
     width: auto;
     height:auto;
 
@@ -75,11 +76,11 @@ centralize{
     box-sizing: border-box;
 }
 .containlinks{
-    width: 100%;
+    width: auto;
     height:auto;
     display: flex;
     justify-content: space-evenly;
-
+  
 }
 
 .containl2{
@@ -100,12 +101,12 @@ centralize{
 }
 
 
-.containl2T toptext{
+.containl2T h1{
     font-weight: bolder;
     font-size: 40px;
 }
 
-.containl2T h1{
+.containl2T toptext{
     font-weight: bolder;
     font-size: 100px;
 }
@@ -121,7 +122,12 @@ centralize{
 }
 
 .contain1link:hover{
-    animation: enlarge 1s;
+    animation: enlarge 0.5s;
+
+}
+.containl1t1:hover{
+    animation: enlarge 0.5s;
+    background-color: #1261AD;
 
 }
 .containl2B{
