@@ -1,196 +1,115 @@
-.top{
-    width:100%;
-    height:150px;
-    background-color: #002366;
+<!doctype html>
+<html lang="en">
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    box-sizing: border-box;
-}
+  <!--FONT-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
 
-.center{
-    width:60%;
-    height:auto;
+  <!-- Bootstrap & Custom Css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  <!-- Flavicon -->
+  <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images\favicon.ico" type="image/x-icon">
 
+  <title>Beep Boop Beep</title>
+</head>
 
-
-    box-sizing: border-box;
-}
-
-.centermid{
-    width:60%;
-    height:auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-
-    box-sizing: border-box;
-}
-
-.container-horizontal{
-    width:auto;
-    height:auto;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    box-sizing: border-box;
-}
-
-.container-horizontal-body{
-    width:auto;
-    height:auto;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    box-sizing: border-box;
-}
-
-.container-horizontal-mid{
-    width:100%;
-    height:auto;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    box-sizing: border-box;
-}
-
-.container-horizontal-link{
-    width:auto;
-    height:auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    box-sizing: border-box;
-}
-
-.container-vertical{
-    width:auto;
-    height:auto;
-
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    box-sizing: border-box;
-}
-.container-vertical-mid{
-    width:auto;
-    height:auto;
-
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-
-    box-sizing: border-box;
-}
-
-
-.container-item{
-    width: auto;
-    height: auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dropdown {
-    position: relative;
-    display: none;
+<style>
+  .body{
+    font-family: "roboto",serif;
   }
+</style>
 
-  
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    right:0;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
-/* Font Type*/
-.white{
-    color: white;
-}
+<body class= "container-verticle">
 
-.black{
-    color: black;
-}
+  <div class = "top">
+    <div class="center">
+      <div class="container-horizontal">
+      <img src="images\metal.png" height="100px" alt="">
+       <div class="container-verticle">
+          <p class="white bold large">QUAH JIT SHEN</p>
+          <p class="white standard">MECHATRONICS | RESEARCH | EDUCATION</p>
+        </div>
+      </div>
+      <div class="container-horizontal-link">
+        
+        <a href="" class=" white bold"> Resume</a> &nbsp; &nbsp; &nbsp;
+        <a href="" class=" white bold"> Past Work/Research</a> &nbsp; &nbsp; &nbsp;
+        <a href="" class=" white bold"> Skills/Certification</a> &nbsp; &nbsp; &nbsp;
+        <a href="" class=" white bold"> Contact Me</a> &nbsp; &nbsp; &nbsp;
+      </div>
+      <div class="dropdown">
+        <img src="images\open-menu.png" height=50px width=50px alt="">
+        <div class="dropdown-content">
+          <p>
+            <a href="">Resume</a>
+        </p>
+        <p>
+            <a href="">Past Work/Research</a>
+        </p>
+        <p>
+            <a href="">Skills/Certification</a>
+        </p>
+        <p>
+            <a href="">Contact Me</a>
+        </p>
+        <hr>
+        <p>
+            <a href="">Facebook</a>
+        </p>
+        <p>
+          <a href="">Linkedin</a>
+      </p>
+        </div>
+      </div>
+    </div>
 
-.bold{
-    font-weight: bold;
-}
+  </div>
 
-.large{
-    font-size: 2rem;
-}
+<br>  
 
-.standard{
-    font-size: 1rem;
-}
+  <div class = "container-horizontal-body">
+    <div class="centermid">
+      <img src="images\DP.jpg" width=400px alt="">
 
-/* when screen is small */
-@media only screen and (max-width: 1200px) {
-    .dropdown {
-        display: inline-block;
-    }
-    .container-horizontal-link {
-        display: none;
-    }
-    .center{
-        width: 90%;
-    }
-    .centermid{
-        width: 90%;
-        flex-direction: column;
-    }
-    .container-vertical-mid{
-        align-items: center;
-    }
-}
+      <div class="container-vertical-mid">
+        <h1 class="bold" >Hey!</h1>
+        <p>This is a hobby page of mine to test my HTML and CSS skills. If you came here to know more about me, here's links to my resume, research, and skill/certification.</p>
+        <br>
+        <div class="container-horizontal-mid">
+          <a href="">
+            <img src="images\resume.png" height="150px" alt=""> &nbsp;&nbsp;&nbsp;
+          </a>
+          <a href="">
+            <img src="images\skill.png" height="150px" alt="">&nbsp;&nbsp;&nbsp;
+          </a>
+          <a href="">
+            <img src="images\work.png" height="150px" alt="">&nbsp;&nbsp;&nbsp;
+          </a>
+        </div>
+        <br>
+        <p>I am an all rounder who is always interested to learn and try out new things, this website being one of them. My main field of study is Mechatronics Engineering, specialising in trajectory generation, object manipulation and machine vision.</p>
+      </div>
+    </div>
+  </div>
 
-@media only screen and (max-width: 420px) {
-    .container-horizontal img{
-        display: none;
-    }
+  <br>
 
-    .container-horizontal-mid{
-  
-        flex-wrap: wrap;
-    }
-    .container-horizontal-body img{
-        transform: scale(0.8);
-    }
-}
+  <div class="container-horizontal">
+    <div class="centermid">
+      <p>Made By Quah</p>
+    </div>
+  </div>
+
+</body>
+
+
+</html>
