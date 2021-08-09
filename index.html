@@ -2,326 +2,756 @@
 <html lang="en">
 
 <head>
+  <!-- Google Analytcs-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170891646-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <!-- Google Analytcs-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170891646-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    gtag('config', 'UA-170891646-1');
+  </script>
 
-        gtag('config', 'UA-170891646-1');
-    </script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom CSS-->
-    <link rel="stylesheet" href="main.css">
+  <!--Custom Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <!--font-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="mainstyle.css">
 
-    <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon">
-     <link rel="icon" href="images\favicon.ico" type="image/x-icon">
-    <title>Beep Boop Beep</title>
+  <title>Hello, world!</title>
 </head>
 
-<body>
-    <!-- Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark customnav">
-        <div class="container">
-            <a class="navbar-brand " href="#">
-                <img src="images\logo.png" alt="" width="auto" height="80px" class="p-1">
-                Beep boop beep</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-lg-flex justify-content-end " id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Contact Me
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/quah-jit-7b337212b/"
-                                    target="blank">Linkedin</a></li>
-                            <li><a class="dropdown-item" href="https://www.facebook.com/quah.jit"
-                                    target="blank">Facebook</a></li>
-                            <li><a class="dropdown-item" href="mailto:quahjit@gmaik.com" target="blank">Email</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+<body class="anchor">
+  <div class=" container-fluid maxheight gradientbackground d-flex flex-column justify-content-center ">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col-8 col-sm-auto align-items-end">
+        <div class="row justify-content-end">
+          <div class="col-12 hideoritillscroll">
+            <h1 class="m-0"><strong>Hey, Quah here.</strong></h1>
+          </div>
         </div>
-    </nav>
-
-    <!-- Header -->
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item text-center active ">
-                        <h1>Quah Jit Shen</h1>
-                        <h3>| Project Manager |</h3>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <h1>Quah Jit Shen</h1>
-                        <h3>| MSc Mechatronics |</h3>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <h1>Quah Jit Shen</h1>
-                        <h3>| Data Enthusiast |</h3>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <h1>Quah Jit Shen</h1>
-                        <h3>| UIUX Innitiate |</h3>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <h1>Quah Jit Shen</h1>
-                        <h3>| Website Designer |</h3>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <h1>Quah Jit Shen</h1>
-                        <h3>| Education Consultant |</h3>
-                    </div>
+        <div class="row justify-content-end hideoritillscroll">
+          <div class="col-12 d-flex align-items-end ">
+            <div id="carouselExampleSlidesOnly" class="carousel carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <h5>Im a Project Manager</h5>
                 </div>
-
+                <div class="carousel-item" data-bs-interval="5000">
+                  <h5>Im a Frontend Developer</h5>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <h5>Im interested in UI/UX</h5>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <h5>Im interested in Research</h5>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <h5>Im interested in Data</h5>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="col-auto m-0 p-0 justify-content-start hideoritillscroll">
+        <div class="blinkbox">
+
+        </div>
+      </div>
     </div>
+    <div class="row justify-content-center mt-5 " id="navbox">
+      <div class="col-12 col-md-10">
+        <div class="row justify-content-center text-center">
+          <div class="col-6 col-sm-3 col-lg-2 hideoritillscroll">
+            <p class="navbutton">Portfolio</p>
+          </div>
+          <div class="col-6 col-sm-3  col-lg-2 hideoritillscroll">
+            <p class="navbutton">Experience</p>
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2 hideoritillscroll">
+            <p class="navbutton">Education</p>
+          </div>
+          <div class="col-6 col-sm-3  col-lg-2 hideoritillscroll">
+            <p class="navbutton">Resume</p>
+          </div>
+        </div>
+      </div>
 
-    <!--Hero Banner-->
-    <div class="container mt-5 ">
-        <div class="row d-flex justify-content-center">
-            <div class="col-10 col-lg-5 m-0 p-0">
-                <img src="images\herobanner.png" alt="" width="100%" height="auto">
+      <div class="col-12 col-md-10 col-lg-7 justify-content-end text-end">
+        <a href="https://www.facebook.com/quah.jit/" target="blank" class="hideoritillscroll">
+          <img src="Image\socialicon\facebook.png" class="iconimg" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/quah-jit/" target="blank" class="hideoritillscroll">
+          <img src="Image\socialicon\linkedin.png" class="iconimg" alt="">
+        </a>
+        <a href="mailto:quahjit@gmail.com" target="blank" class="hideoritillscroll">
+          <img src="Image\socialicon\email.png" class="iconimg" alt="">
+        </a>
+        <a href="https://github.com/lonelysamu" target="blank" class="hideoritillscroll">
+          <img src="Image\socialicon\github.png" class="iconimg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--Portfolio-->
+  <div class=" container-fluid section d-none levy">
+    <div class="row maxheight d-flex flex-column justify-content-center align-items-center">
+      <div class="col-10 text-center">
+        <div class="row justify-content-center anchor">
+          <div class="col-10 mt-5">
+            <h1><strong>My Portfolio</strong></h1>
+          </div>
+
+          <div class="col-10 mt-5">
+            <h1><strong>Projects Managed</strong></h1>
+            <p>Projects where i am the <strong class="highlighted">techical coordinator</strong>, incharge of liasoning
+              and communicating
+              between the tech teams and client to ensure that the <strong>final product</strong> is both
+              <strong>aesthetically pleasing</strong> while
+              <strong>fulfilling the functional requirements</strong>
+            </p>
+          </div>
+          <div class="col-12 mt-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5">
+                <div class="row justify-content-center fancybox">
+                  <div class="col-6 mt-4">
+                    <a href="https://minggusainsnegara2021.com.my/" target="blank">
+                      <img src="Image\logo\MSN.png" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Minggu Sains Negara 2021</strong></p>
+                    <p>Malaysias National Science week, hosted by the Ministry of Technology and Inovation (MOSTI),
+                      targeting school children. Due to covid, the event was held fully virtual in 2021.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox">
+                  <div class="col-6 mt-4">
+                    <a href="https://www.facebook.com/officialmosti/videos/sidang-kemuncak-tahun-pengkomersialan-mcy-summit-2020/910270339507865/"
+                      target="blank">
+                      <img src="Image\logo\MCY.png" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Malaysia Comercialisation Year 2020</strong></p>
+                    <p>Malaysia Comercialisation Year is an event hosted by MOSTI to encourage, award, celebrate, and
+                      introduce new technological inovation and startup in Malaysia</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox">
+                  <div class="col-6 mt-4">
+                    <a href="https://ekud.my/" target="blank">
+                      <img src="Image\logo\ekud.png" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>E-Karnival Usahawan Desa 2020</strong></p>
+                    <p>Karnival Usahawan Desa is an annual sales fair for rural entrepreneurs hosted by the Ministry of
+                      Rural Development (KPLB).</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox">
+                  <div class="col-6 mt-4">
+                    <a href="https://www.facebook.com/mydigitalmakerfair/" target="blank">
+                      <img src="Image\logo\MDM.png" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>#Mydigitalmakerfair 2020</strong></p>
+                    <p>The mydigitalmaker fair is a annual education fair championed by Malaysia Digital Economy
+                      Corporation (MDEC) targeting the K12 students and below. </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
+          </div>
 
-            <div class="col-10 col-lg-5 d-flex flex-column p-5 justify-content-center accentbox">
+          <div class="col-10 mt-5">
+            <h1><strong>Websites Built</strong></h1>
+            <p>Projects where i am the <strong class="highlighted">Developer</strong>, incharge of building the webpage,
+              from design to
+              layout.
+            </p>
+          </div>
+          <div class="col-12 mt-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://rejuvenatemy.com/" target="blank">
+                      <img src="Image\Poster\Rejuvenate3.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Rejuvenate 2021 Edition 3</strong></p>
+                    <p>Rejuvenate is Synapze's #11thHourInitiative in addressing global matters relating to youth and
+                      the
+                      world at large. Our 3-track talk set will engage, connect and discuss rejuvenation of education,
+                      with a view to rethink mindset and empowerment to inspire youth</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://vibrant-wiles-0bb8e7.netlify.app/" target="blank">
+                      <img src="Image\Poster\rico.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Ricomincia Trading</strong></p>
+                    <p>Website redesign work for a penang based trading company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="http://hartaldoktorkontrakmy.com//" target="blank">
+                      <img src="Image\Poster\Hartal.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Hartal Doktor Kontrak 2021</strong></p>
+                    <p>A pro-bono website with the purpose of informing people the plight the contract doctors have to
+                      go through, and why it matters to every Malaysian</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://www.joinklcitycollege.com/" target="blank">
+                      <img src="Image\Poster\Joincitycollege.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Minggu Sains Negara 2021</strong></p>
+                    <p>A website for City College KL to invite SPM graduates to join their unique education path, focus
+                      on retail.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://rejuvenatemy.com/Past/Rejuvenate2021Edition2/index.html" target="blank">
+                      <img src="Image\Poster\Rejuvenate2.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Rejuvenate 2021 Edition 2</strong></p>
+                    <p>
+                      Rejuvenate is Synapze's #11thHourInitiative in addressing global matters relating to youth. Our
+                      3-track
+                      talk set will engage, connect and discuss rejuvenation of skills, with a view to rethink
+                      perception and being future-ready for global demands.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://stjohn.netlify.app/#" target="blank">
+                      <img src="Image\Poster\gustavo.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Gustavo Expressivo</strong></p>
+                    <p>A website for a local penang music school</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://rejuvenatemy.com/Past/Rejuvenate2021Edition1/index.html" target="blank">
+                      <img src="Image\Poster\Rejuvenate1.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Rejuvenate 2021 Edition 1</strong></p>
+                    <p>Rejuvenate 2021 is a 2-day free-for-all virtual experience, accessible worldwide, gathering a
+                      group of individuals to share knowledge, experiences and collectively call for actions to rethink
+                      issues plaguing the environment./p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://www.qwesify.com/" target="blank">
+                      <img src="Image\Poster\qwesify.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Qwesify</strong></p>
+                    <p>A personal project with a friend to create a gamified task tracking app</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://nictsed2021.netlify.app/" target="blank">
+                      <img src="Image\Poster\Nictsed.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>NICTSeD 2021</strong></p>
+                    <p>NICTSeD is Malaysia’s first national cyber security school discourse initiated and organized by
+                      CyberSecurity Malaysia, in collaboration with the Educational Resources and Technology Division,
+                      Ministry of Education Malaysia. Since its inception in 2013, the program has successfully achieved
+                      its goal as a method of disseminating knowledge on cyber security in a way that would be
+                      interesting for students and teachers.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <a href="https://www.synapzemy.com/" target="blank">
+                      <img src="Image\Poster\synapze.jpg" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Synapze</strong></p>
+                    <p>My Companies Website Design. Synapze is a virtual events / education consultant company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox p-0">
+                  <div class="col-12 p-0">
+                    <img src="Image\Poster\synapze1.jpg" class="standardimage clickableimage" alt="">
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Synapze</strong></p>
+                    <p>The 1st version of my companies Website Design. Synapze is a virtual events / education
+                      consultant company</p>
+                  </div>
+                </div>
+              </div>
 
-                <h1>Hey!</h1>
-                <p>This is a hobby page of mine to test my Bootstrap, HTML, CSS, and JavaScript skills. If you came here
-                    to know
-                    more about me, you are at the right place.
-                    <br><br>
-                    I am an all rounder who is always interested to learn and try out new things, this website being one
-                    of them. My main field of study is Mechatronics Engineering, specialising in trajectory generation,
-                    object manipulation and machine vision.
+            </div>
+          </div>
 
+          <div class="col-10 mt-5">
+            <h1><strong>Co curricular Developed</strong></h1>
+            <p>Projects where i am the <strong class="highlighted">Education Consultant</strong>, incharge of comming up
+              with the content
+              and structure of the course
+            </p>
+          </div>
+
+          <div class="col-12 mt-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5">
+                <div class="row justify-content-center fancybox">
+                  <div class="col-6 mt-4">
+                    <a href="https://www.synapzemy.com/kamidigital.html/" target="blank">
+                      <img src="Image\logo\KDigital.png" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Kamidigital</strong></p>
+                    <p>Kamidigital is a series of short slide tutorial aiming to teach kids a technical skill via do it
+                      yourself projects. I created tutorials under this banner pertaining to coding, game development
+                      and robotics.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5 mt-4 mt-md-0">
+                <div class="row justify-content-center fancybox">
+                  <div class="col-6 mt-4">
+                    <a href="https://sandbox.asia/home/" target="blank">
+                      <img src="Image\logo\sandbox.png" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Sandbox.asia</strong></p>
+                    <p>I created and taught the Robotics cocurricular for sandbox.asia. The course was designed to be
+                      scaleable, so regardless of age, the content is the same, just that the output will vary.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-10 mt-5">
+            <h1><strong>Past Research</strong></h1>
+            <p>Projects where i am the <strong class="highlighted">Researcher</strong>.
+            </p>
+          </div>
+          <div class="col-12 mt-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3 p-0 p-md-5">
+                <div class="row justify-content-center fancybox">
+                  <div class="col-6 mt-4">
+                    <a href="https://scholar.google.com/citations?user=5DwI3VsAAAAJ&hl=en" target="blank">
+                      <img src="Image\logo\work.png" class="standardimage clickableimage" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="row justify-content-center fancybox">
+                  <div class="col-12 mt-3">
+                    <p><strong>Past Research Work</strong></p>
+                    <p>My past research work during my Masters and Bachelor, mainly focusing on mobile robots,
+                      integrated technology and object manipulation.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-12 text-center d-flex justify-content-center  justify-content-sm-end mt-5 botlevy">
+            <p class="backbutton ">Back</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=" container-fluid section d-none levy">
+    <div class="row maxheight d-flex flex-column justify-content-center align-items-center">
+      <div class="col-10 text-center">
+        <div class="row justify-content-center anchor">
+
+          <div class="col-10 mt-5">
+            <h1><strong>My Work Experience</strong></h1>
+            <p>Where i have been, what i have done</p>
+          </div>
+
+          <div class="col-12 col-sm-10 mt-5 ps-2 leftline">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 col-md-5 col-lg-4 col-xl-3">
+                <img src="Image\logo\synapze.jpg" class="standardimage" alt="">
+              </div>
+              <div class="col-12 col-md-7 col-lg-8 col-xl-9 text-center text-md-start mt-4 mt-md-0 p-4">
+                <h4>Head Of Content</h4>
+                <h5>Synapze Sdn Bhd</h5>
+                <p><strong>2020 - Current</strong></p>
+                <p>My main role is to manage and generate content in the form of tutorials, short courses, and long
+                  courses. The content covers a wide range of subjects, from game development using scratch, core, and
+                  stencyl, to robotics covering microbit, maker uno, arduino uno and lego EV3. Through this exercise, we
+                  have managed to launched our #codeathome series which produces short 10 slide tutorials for free,
+                  aiming to teach kids programming through project base application. This has then further developed
+                  into collaborations with Astro dekoded (Coding di rumah), Cytron, microbit and element 14.
+                  <br><br>
+                  Beyond this, i have also took up online classes and volunteered myself into being a front end web
+                  designer for the company, producing the companies own webpage. learning HTML,CSS and Javascript was my
+                  own pejorative to increase the number of subjects i can develop content for, volunteering to build
+                  sites is an exercise to apply the skills i have learnt.!
                 </p>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <!-- More info-->
-
-    <div class="container mt-5 ">
-        <div class="row text-center">
-            <h1>More About Me</h1>
-        </div>
-        <div class="row d-flex justify-content-center mt-3">
-            <div class="col-10">
-                <div class="row d-flex justify-content-center text-center" id="checkbutton">
-                    <div class="col-4 p-2 d-flex justify-content-center align-items-center custombutton activebutton "
-                        id="button1">
-                        <p class=" m-0">Experience</p>
-                    </div>
-                    <div class="col-4 p-2 d-flex justify-content-center align-items-center custombutton " id="button2">
-                        <p class=" m-0">Qualification</p>
-                    </div>
-                    <div class="col-4 p-2 d-flex justify-content-center align-items-center custombutton " id="button3">
-                        <p class=" m-0">Past Work</p>
-                    </div>
-                </div>
+          </div>
+          <div class="col-12 col-sm-10 mt-5 ps-2 leftline">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 col-md-5 col-lg-4 col-xl-3">
+                <img src="Image\logo\sandbox.jpg" class="standardimage" alt="">
+              </div>
+              <div class="col-12 col-md-7 col-lg-8 col-xl-9 text-center text-md-start mt-4 mt-md-0 p-4">
+                <h4>Robotics Lead</h4>
+                <h5>Sandbox Asia</h5>
+                <p><strong>2018-2020</strong></p>
+                <p>As the robotics lead for Sandbox.asia, My job was to develop and subsequently teach the robotics
+                  course for people from differing age groups The courses that were developed centered around the
+                  Arduino Uno with the goal of enabling children/teens to be able to build anything using whatever they
+                  can find around them. So far, we have developed programmes for: Junior Programme : 6-9 years old Youth
+                  Programme : 10-14 years old School Holiday Workshops: 9-14 year old School ECA Programme: 7-12 years
+                  old</p>
+              </div>
             </div>
+          </div>
+          <div class="col-12 col-sm-10 mt-5 ps-2 leftline">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 col-md-5 col-lg-4 col-xl-3">
+                <img src="Image\logo\sandbox.jpg" class="standardimage" alt="">
+              </div>
+              <div class="col-12 col-md-7 col-lg-8 col-xl-9 text-center text-md-start mt-4 mt-md-0 p-4">
+                <h4>Head of Education</h4>
+                <h5>Sandbox Asia</h5>
+                <p><strong>2018-2020</strong></p>
+                <p>As the Head of Education, I am tasked with ensuring all content developed by each stream (Robotics,
+                  Game Development, App Development and Streaming) falls inline with the mission and vision of
+                  sandbox.asia. Along with that, i am also in charge of hiring personnel to fulfill current and
+                  potential needs, as well as look out for individuals, business and entities which may lead to fruitful
+                  outcomes. So far, I have been responsible for the liasoning between: St John International School,
+                  (robotics, game development & tech4.0 classes) Al hamra Integrated School (game development and
+                  robotics ECA programme) Stem4all Makerspace (workshop & weekend classes) Sri Desa Learning Centre
+                  (Robotics ECA & CCA classes)</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-12 text-center d-flex justify-content-center  justify-content-sm-end mt-5 botlevy">
+            <p class="backbutton ">Back</p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- Content box work-->
-    <div class="container mt-5 " id="work">
-        <div class="row justify-content-center" id="workcontent" style="display: flex;">
 
-        </div>
-    </div>
-    <!-- Content box academic-->
-    <div class="container mt-5" id="academic" style="display: none;">
-        <div class="row d-flex justify-content-center align-items-center ">
-            <div class="col-10 ">
-                <div class="row d-flex justify-content-center align-items-center  whitebg cardstyle">
-                    <div class="col-12 col-lg-4 p-5">
-                        <img src="images\utem.png" alt="" width="100%" height="auto">
-                    </div>
-                    <div class="col-12 col-lg-8 p-5">
-                        <h3>MSc. Mechatronics Engineering</h3>
-                        <h4>Universiti Teknikal Malaysia Melaka</h4>
-                        <h5>2012 - 2016</h5>
-                        <br>
-                        <p>Done via research. Project focused on the use of basic movements to manipulate a cluttered
-                            environment with the intent of improving the quality of image taken for a robot use as a
-                            learning resource as it goes in a chaotic environment.</p>
-                    </div>
+  <div class=" container-fluid section d-none levy">
+    <div class="row maxheight d-flex flex-column justify-content-center align-items-center">
+      <div class="col-10 text-center">
+        <div class="row justify-content-center anchor">
+
+          <div class="col-10 mt-5">
+            <h1><strong>My Academic Qualification</strong></h1>
+            <p>My Boring School Stuff</p>
+          </div>
+
+          <div class="col-12 col-sm-10 mt-5 ps-2 leftline">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 col-md-5 col-lg-4 col-xl-3">
+                <img src="Image\logo\UTeM.jpg" class="standardimage" alt="">
+              </div>
+              <div class="col-12 col-md-7 col-lg-8 col-xl-9 text-center text-md-start mt-4 mt-md-0 p-4">
+                <h4>MSc. Mechatronics Engineering</h4>
+                <h5>Universiti Teknikal Malaysia Melaka</h5>
+                <p><strong>2012 - 2016</strong></p>
+                <p>Done via research. Project focused on the use of basic movements to manipulate a cluttered
+                  environment with the intent of improving the quality of image taken for a robot use as a learning
+                  resource as it goes in a chaotic environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-10 mt-5 ps-2 leftline">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 col-md-5 col-lg-4 col-xl-3">
+                <img src="Image\logo\UTeM.jpg" class="standardimage" alt="">
+              </div>
+              <div class="col-12 col-md-7 col-lg-8 col-xl-9 text-center text-md-start mt-4 mt-md-0 p-4">
+                <h4>Bac. Mechatronics Engineering</h4>
+                <h5>Universiti Teknikal Malaysia Melaka</h5>
+                <p><strong>2013 - 2017</strong></p>
+                <p>Graduated with 2nd class upper. Thesis was on the effects of motion towards the quality of image
+                  taken using a camera that is mounted on a mobile robot</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 mt-5">
+            <h1><strong>Certificate / Self Learning</strong></h1>
+            <p>Things i do to upskill
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-10 mt-5 p-2">
+            <div class="row justify-content-center">
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\coursera.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Foundations of User Experience (UX) Design</strong></p>
+                    <p>August 2021</p>
+                  </div>
                 </div>
-
-                <div class="row mt-3 d-flex justify-content-center align-items-center  whitebg cardstyle">
-                    <div class="col-12 col-lg-4 p-5">
-                        <img src="images\utem.png" alt="" width="100%" height="auto">
-                    </div>
-                    <div class="col-12 col-lg-8 p-5">
-                        <h3>Bac. Mechatronics Engineering</h3>
-                        <h4>Universiti Teknikal Malaysia Melaka</h4>
-                        <h5>2013 - 2017</h5>
-                        <br>
-                        <p>Graduated with 2nd class upper. Thesis was on the effects of motion towards the quality of
-                            image taken using a camera that is mounted on a mobile robot</p>
-                    </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\coursera.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong> Front-End Web Development with React</strong></p>
+                    <p>June 2021</p>
+                  </div>
                 </div>
-
-                <div class="row mt-3 d-flex justify-content-center align-items-center" id="certcontent">
-
-
-
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\coursera.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Front-end Web UI Frameworks and Tools: Bootstrap 4</strong></p>
+                    <p>June 2021</p>
+                  </div>
                 </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\nextacademy.png" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Javascript Remote Course</strong></p>
+                    <p>May 2021</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\nextacademy.png" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>HTML/CSS Remote Course</strong></p>
+                    <p>June 2020</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\datacamp.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Image Processing in Python </strong></p>
+                    <p>May 2020</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\datacamp.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Intermediate Python </strong></p>
+                    <p>May 2020</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\datacamp.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Introduction to Python </strong></p>
+                    <p>May 2020</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\datacamp.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Python Data Science Toolbox (Part 2) </strong></p>
+                    <p>May 2020</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\datacamp.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Python Data Science Toolbox (Part 1) </strong></p>
+                    <p>May 2020</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-3">
+                <div class="row justify-content-center">
+                  <div class="col-8">
+                    <img src="Image\icon\datacamp.jfif" class="standardimage" alt="">
+                  </div>
+                  <div class="col-12 mt-3">
+                    <p><strong>Python Programming Track </strong></p>
+                    <p>March 2020</p>
+                  </div>
+                </div>
+              </div>
 
             </div>
+          </div>
+
+
+
+
+
+          <div class="col-12 text-center d-flex justify-content-center  justify-content-sm-end mt-5 botlevy">
+            <p class="backbutton ">Back</p>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- Content box past-->
-    <div class="container justify-content-center  mt-5" id="past" style="display: none;">
-        <div class="row d-flex justify-content-center align-items-center ">
-            <div class="col-10">
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-12 mt-5">
-                        <h1>Projects Managed</h1>
-                    </div>
-                </div>
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://minggusainsnegara2021.com.my/login/" target="blank">
-                            <img src="images\MSN.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://www.facebook.com/officialmosti/videos/sidang-kemuncak-tahun-pengkomersialan-mcy-summit-2020/910270339507865/"
-                            target="blank">
-                            <img src="images\MCY.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://ekud.my/" target="blank">
-                            <img src="images\ekud.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://www.facebook.com/mydigitalmakerfair/" target="blank">
-                            <img src="images\MDM.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                </div>
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-12 mt-5">
-                        <h1>Websites Developed</h1>
-                    </div>
-                </div>
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://www.synapzemy.com/" target="blank">
-                            <img src="images\SynapzeLogo-WHITE.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3 p-5 specialicon">
-                        <a href="https://rejuvenatesummitmalaysia.netlify.app/" target="blank">
-                            <img src="images\rejuvenate.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3 p-5 specialicon">
-                        <a href="https://nictsed2021.netlify.app/" target="blank">
-                            <img src="images\nictsed-white-1400x1319.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3 p-5 specialicon">
-                        <a href="https://javascriptpractice-quah.netlify.app/" target="blank">
-                            <img src="images\logo.png" alt="" width="50%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://ekud.my/" target="blank">
-                            <img src="images\ekud.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3  p-5 specialicon" style="background-color: white;">
-                        <a href="https://stjohn.netlify.app/#" target="blank" style="color:green; text-decoration: none; font-size: large;">
-                            <b >Gustavo Espressivo</b>
-                        </a>
-                    </div>
-                </div>
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-12 mt-5">
-                        <h1>Co curricular Developed</h1>
-                    </div>
-                </div>
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://www.synapzemy.com/kamidigital.html" target="blank">
-                            <img src="images\kamidigital.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://sandbox.asia/home/" target="blank">
-                            <img src="images\sandbox.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                </div>
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-12 mt-5">
-                        <h1>Past Research</h1>
-                    </div>
-                </div>
-                <div class="row text-center d-flex justify-content-center align-items-center ">
-                    <div class="col-6 col-lg-3  p-5 specialicon">
-                        <a href="https://scholar.google.com/citations?user=5DwI3VsAAAAJ&hl=en" target="blank">
-                            <img src="images\work.png" alt="" width="100%" height="auto">
-                        </a>
-                    </div>
-                </div>
+  </div>
 
-            </div>
-        </div>
-    </div>
 
-    <!--footer-->
-    <div class="container-fluid d-flex justify-content-center align-items-center ender mt-5">
-        <div class="row">
-            <div class="col text-center">
-                <p>Designed and maintained by Quah</p>
-            </div>
-        </div>
-    </div>
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="contentselector.js"></script>
+  <script src="onload.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
 
-    <!--AJAX-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <!-- Custom JS-->
-    <script src="main.js"></script>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+  <!--Custom Script-->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
 </body>
 
 </html>
