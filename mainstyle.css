@@ -42,7 +42,7 @@ body{
 
 .botlevy{
     position: sticky;
-    bottom: 0;
+    bottom: 50px;
 }
 
 .blinkbox{
@@ -84,12 +84,16 @@ a{
 }
 
 .backbutton{
-    width: 150px;
+    width: 75px;
+    height: 75px;
     border-radius: 25px;
     border:3px solid white;
     transition: 0.5s;
     cursor: pointer;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fancybox{
