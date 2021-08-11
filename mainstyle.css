@@ -20,6 +20,17 @@ body{
 	animation: 10s ease 0s infinite gradient;
 }
 
+.bg-all{
+    background-color: coral !important;
+    color: black;
+}
+
+.badge{
+    cursor: pointer;
+}
+
+
+
 .highlighted{
     color: coral;
 }
