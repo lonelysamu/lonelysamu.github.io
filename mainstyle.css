@@ -25,11 +25,6 @@ body{
     color: black;
 }
 
-.badge{
-    cursor: pointer;
-}
-
-
 
 .highlighted{
     color: coral;
@@ -162,6 +157,20 @@ border-left: 3px solid white !important;
     z-index: 10;
 }
 
+.selectable{
+    cursor: pointer
+}
+
+.unactivated{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.unactivated:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
 .fadetoright1{
     animation: 1s ease-in-out 0s 1 forwards slidetoRight;
 }
@@ -217,7 +226,7 @@ border-left: 3px solid white !important;
     100% {
     opacity: 0;
       transform: translateX(-100%);
-      display: none;
+      display: none !;
     }
   }
 
