@@ -5,7 +5,7 @@ document.querySelector('body').addEventListener('click', (e) => {
         console.log(y);
         if(y == 3){
             window.open(
-                "https://drive.google.com/file/d/1-Mol_f7kaIWM1c1TqrZdfexK_LIFvSdY/view?usp=sharing", "_blank");
+                "https://drive.google.com/file/d/1K7560WOMEV8POp5gpodTiaG3H3CMWJMC/view?usp=sharing", "_blank");
         }
         else{
             document.querySelectorAll(".section")[y].classList.remove("d-none","fadetoright1");
